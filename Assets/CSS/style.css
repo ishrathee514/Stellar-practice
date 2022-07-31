@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+/*Clearing up any unwanted margin or padding*/
+*{    
+    Margin: 0px;
+    padding: 0px;
+}
+
+/* Setting up the background image and a few global properties */
+body {
+    background-color: #150040;
+    background-image: url('../Images/Homebg.png');
+    background-size:cover;
+    font-family: 'Nunito', sans-serif;
+    color: #7550be;                
+}
+
+/* The claymorphic form */
+#container {
+
+    border-radius: 2em;
+    width: 19vw;
+    height: 52.5vh;
+    position: absolute;
+    top: 30vh;
+    left: 6vw;
+    background-color: #150040;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.295), 10px 10px 70px rgb(0, 0, 0, 0.25), inset 5px 5px 10px rgba(0, 0, 0, 0.5), inset 5px 5px 25px rgba(186, 160, 236, 0.2), inset -5px -5px 15px rgba(0,0,0,0.75);  /*Creating the clay like feel using shadows*/
+    text-shadow:2px 4px 10px #000000, -1px -1px 10px #535353; /*A simpler version of the shadow art*/ 
+    
+}
+/* Sign in */
+h2{
+    position: absolute;
+    top: 5vh;
+    left: 6.25vw;
+    font-size:2.1vw;
+}
+#Username{
+    position: absolute;
+    top: 15vh;
+    left: 6.6vw;
+    font-size:1.3vw;
+}
+input{
+    border: 0.1vw solid #7550be;
+    border-radius: 0.5em;
+    box-shadow: 2px 4px 10px #000000, -0.5px -0.5px 10px #535353;
+    background-color: #150040;
+    color:#7550be;
+    font-size: 1.1vw;
+    width: 14vw;
+    text-align: center;
+}
+#Usernamebox{
+    position : absolute;
+    top: 21vh;
+    left: 2.5vw;
+}
+#Password{
+    position : absolute;
+    top: 28vh;
+    left: 6.6vw;
+    font-size: 1.3vw;
+}    
+#Passwordbox{
+    position : absolute;
+    top: 34vh;
+    left: 2.5vw; 
+}
+input::placeholder{
+    color: #7550be;
+    text-align: center;
+    font-size:1vw;
+}
+
+#Submit{
+    position: absolute;
+    top: 42vh;
+    left: 6.57vw;
+    background-color: #7550be;
+    color: #150040;
+    font-size: 1.3vw;
+    font-weight: bold;
+    width: 6vw;
+    border: none;
+    border-radius: 0.8em;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.295), 10px 10px 70px rgb(0, 0, 0, 0.25), inset 5px 5px 10px rgba(0, 0, 0, 0.5), inset 5px 5px 25px rgba(186, 160, 236, 0.2), inset -5px -5px 15px rgba(0,0,0,0.75);  
+    text-shadow:2px 4px 10px #000000, -1px -1px 10px #535353;
+    padding: 0.4vw;
+}
+
+/* The button feels like it is being pressed in real life */
+#Submit:hover{
+    font-size: 1.25vw;
+    font-weight: bold;
+}
+
+/*Call to action*/
+#Msg{
+    position: absolute;
+    left: 36vw;
+    top: 18vh;
+    width: 10em;
+    font-size: 5.7vw;
+    text-shadow:2px 5px 10px #000000, -1px -1px 10px #535353;
+}
+/* 3d girl */
+#ClaymorphicImage{
+    width:28vw;
+    height:42vh;
+    position: absolute;
+    right: 0vw;
+    bottom: 0.4vh;
+}
+/*Attribution for the 3d girl*/
+#attribution{
+    text-decoration: none;
+    color: #150040;
+    position: absolute;
+    right:13vw;
+    bottom: 0vh;
+    font-size: 0.7vw;
+}
+
+/*Social media handles*/
+#Facebook{
+    height: 6.9vh;
+    width: 3.5vw;
+    position: absolute;
+    right: 1vw;
+    bottom: 37.7vh;
+}
+#Linkedin{
+    height: 7.7vh;
+    width: 4.1vw;
+    position: absolute;
+    right: 0.8vw;
+    bottom: 21.5vh;
+}
+#Instagram{
+    height: 7vh;
+    width: 3.5vw;
+    position: absolute;
+    right: 1.1vw;
+    bottom: 6.9vh;
+
+}
+#Github{
+    height: 7vh;
+    width: 3.5vw;
+    position: absolute;
+    right: 1vw;
+    bottom: 53vh;
+
+}
+#Facebook:hover{
+    height:6.8vh;
+    width:3.3vw;
+}
+#Github:hover{
+    height:6.8vh;
+    width:3.3vw;
+}
+#Instagram:hover{
+    height:6.8vh;
+    width:3.4vw;
+}
+#Linkedin:hover{
+    height:7.5vh;
+    width:3.9vw;
+}
